@@ -1,0 +1,23 @@
+{
+  "name": "@bazel/create",
+  "version": "8.0.0",
+  "description": "Create a new Bazel JS starter project",
+  "type": "module",
+  "bin": {
+    "create-bazel": "bin/cli.js"
+  },
+  "dependencies": {
+    "degit": "^2.8.4"
+  },
+  "keywords": [
+    "bazel",
+    "create",
+    "starter",
+    "javascript"
+  ],
+  "author": "Alex Eagle",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
