@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { degit } from "degit";
+import pkg from 'degit';
+const { degit } = pkg;
 
 const args = process.argv.slice(2);
 const targetDir = args[0] || "my-bazel-project";
