@@ -12,8 +12,9 @@ This powers the `npm create @bazel` command.
 With **npm v7+**:
 
 ```bash
-npm create @bazel my-app
+npm create @bazel my-app [project-name]
 # OR
-npx @bazel/create my-app
+npx @bazel/create my-app [project-name]
 ```
 
+Then see the `README.bazel.md` file in the newly created project.
